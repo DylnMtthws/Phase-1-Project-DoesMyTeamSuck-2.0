@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="gradient">
+        <video id='background-video' autoplay loop muted>
+            <source src="backgroundvideo.mp4" type="video/mp4">
+        </video>
+        <div>
+            <header>
+                <h1>Does My Team <span id="suck">Suck?</span></h1>
+                <h2>(click around and find out)</h2>
+            </header>
+        </div>
+    </div>
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr class="row">
+                    <th class="cell1">logo</th>
+                    <th class="cell1">team name</th>
+                    <th class="cell1">xGD</th>
+                    <th class="cell1">PL Table</th>
+                    <th class="cell1">Edit xGD</th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+                <!-- Team Information will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <div class="aInfoContainer"></div>
+    <!-- This is where additional info goes -->
+        <div class="text-response-container"></div>   
+        <!-- this is where the text response goes -->
+</body>
+</html>
