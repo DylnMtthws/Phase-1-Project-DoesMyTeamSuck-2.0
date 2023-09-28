@@ -117,7 +117,7 @@ function additionalDetails(team) {
     goalsFor.textContent = `Goals For: ${currentTeam.goalsFor}`
     goalsAgainst.textContent = `Goals Against: ${currentTeam.goalsAgainst}`
     xG.textContent = `Expected Goals: ${currentTeam.xGFor}`
-    xGA.textContent = `Expected Goals: ${currentTeam.xGAgainst}`
+    xGA.textContent = `Expected Goals Against: ${currentTeam.xGAgainst}`
 
     dmtsBtn.className = 'Button'
     dmtsBtn.textContent = 'Does My Team Suck?'
