@@ -82,7 +82,7 @@ function displayTeam(data) {
     editButtonCell.addEventListener('click', (e) => {
         e.preventDefault()
         let inputData = input.value
-        if (inputData > 0 && inputData === true) {
+        if (inputData > 0) {
             fetch(`http://localhost:3000/PLTeams/${data.id}`, { 
             method: "PATCH",
             headers: {"Content-Type": "application/json"},
