@@ -82,14 +82,15 @@ function displayTeam(data) {
     editButtonCell.addEventListener('click', (e) => {
         e.preventDefault()
         let inputData = input.value
-        fetch(`http://localhost:3000/PLTeams/${data.id}`, { 
-        method: "PATCH",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({ xGD: inputData }) 
-    })
-
-        .then(res => res.json())
-        .catch(e => console.log(e))
+        if (inputData > 0 && inputData === true) {
+            fetch(`http://localhost:3000/PLTeams/${data.id}`, { 
+            method: "PATCH",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({ xGD: inputData }) 
+            })
+            .then(res => res.json())
+            .catch(e => console.log(e))
+        } 
     })
 }
 
