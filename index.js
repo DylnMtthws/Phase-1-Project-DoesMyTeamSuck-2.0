@@ -138,14 +138,18 @@ function additionalDetails(team) {
         textDivContainer.innerHTML = ''
         let textDiv = document.createElement('div')
         textDiv.className = 'text-response'
-        
 
+        let championshipLink = document.createElement('a')
+        championshipLink.textContent = 'You\ll be here next season'
+        championshipLink.href = 'https://www.efl.com/competitions/efl-championship/'
+
+        
         let manCityResponse = "Yeah yeah yeah...probably the greatest team ever assembled"
         let veryGoodTeamResponse = "Watch out Pep! This team is good. Very good."
         let goodTeamResponse = 'Keep this up and you\'ll be playing in Europe next season!'
         let okayTeamResponse = 'Comfortably mid-table...not bad, not good'
         let badTeamResponse = 'You probablyyyyy won\'t be relegated?'
-        let veryBadTeamResponse = 'Have fun in the Championship next year.'
+        let veryBadTeamResponse = championshipLink
 
         const qualityQuotient = (team.xGD/team.matches)*100
 
@@ -160,7 +164,7 @@ function additionalDetails(team) {
             textDiv.textContent = okayTeamResponse
         } else if (qualityQuotient <= 0 && qualityQuotient > -60) {
             textDiv.textContent = badTeamResponse
-        } else (textDiv.textContent = veryBadTeamResponse)
+        } else (textDiv.appendChild(veryBadTeamResponse))
 
         textDivContainer.append(textDiv)
     })

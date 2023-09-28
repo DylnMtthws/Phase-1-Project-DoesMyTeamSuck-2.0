@@ -223,7 +223,6 @@ data {
     }
 }
 
-
 .aInfoContainer {
     position: fixed;
     top: 50%; 
@@ -266,7 +265,11 @@ data {
     }
 }
 
-
-
-
-
+a {
+    font-family: 'Boska Light', sans-serif;
+    color: whitesmoke;
+    text-shadow: 0.001em 0 blue,
+    0 0.001em blue,
+    -0.001em 0 blue,
+    0 -0.001em blue;
+}
