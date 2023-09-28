@@ -12,24 +12,24 @@
 
 @font-face {
     font-family: 'Boska Light'; /* Unique font name */
-    src: url('Boska-Light.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Boska-Light.eot'); /* IE9 Compat Modes */
     src: local('Boska Light'), local('Boska-Light'),
-         url('Boska-Light.woff2') format('woff2'), /* Super Modern Browsers */
-         url('Boska-Light.woff') format('woff'), /* Modern Browsers */
-         url('Boska-Light.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('Boska-Light.otf') format('opentype'), /* Older versions of iOS and Android */
-         url('Boska-Light.svg#Boska-Light') format('svg'); /* Legacy iOS */
+         url('fonts/Boska-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/Boska-Light.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Boska-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Boska-Light.otf') format('opentype'), /* Older versions of iOS and Android */
+         url('fonts/Boska-Light.svg#Boska-Light') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
     font-family: 'Boska Bold'; /* Unique font name for Boska-Bold */
-    src: url('Boska-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Boska-Bold.eot'); /* IE9 Compat Modes */
     src: local('Boska Bold'), local('Boska-Bold'),
-         url('Boska-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-         url('Boska-Bold.woff') format('woff'), /* Modern Browsers */
-         url('Boska-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('Boska-Bold.otf') format('opentype'), /* Older versions of iOS and Android */
-         url('Boska-Bold.svg#Boska-Bold') format('svg'); /* Legacy iOS */
+         url('fonts/Boska-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/Boska-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Boska-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Boska-Bold.otf') format('opentype'), /* Older versions of iOS and Android */
+         url('fonts/Boska-Bold.svg#Boska-Bold') format('svg'); /* Legacy iOS */
 }
 
 .gradient { 
