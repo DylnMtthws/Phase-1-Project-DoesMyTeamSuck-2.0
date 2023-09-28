@@ -141,7 +141,7 @@ function additionalDetails(team) {
         textDiv.className = 'text-response'
 
         let championshipLink = document.createElement('a')
-        championshipLink.textContent = 'You\ll be here next season'
+        championshipLink.textContent = 'At least you\'ll still be playing soccer next season?'
         championshipLink.href = 'https://www.efl.com/competitions/efl-championship/'
 
         
