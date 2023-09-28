@@ -217,6 +217,26 @@ data {
     border-radius: 5em;
 }
 
+@media only screen and (max-width: 1200px) {
+    .text-response-container {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .text-response-container {
+        top: 25%;
+        width: 50%;
+        position: absolute; 
+        
+    }
+    .table-container {
+        padding-top: 25em;
+    }
+}
+
+
+
 .aInfoContainer {
     position: fixed;
     top: 50%; /* Center from top to bottom */
@@ -242,4 +262,25 @@ data {
     border-radius: 5em;
     /* z-index: 2; */
 }
+
+@media only screen and (max-width: 1200px) {
+    .aInfoContainer {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aInfoContainer {
+        top: 25%;
+        width: 50%;
+        position: absolute; 
+    }
+    .table-container {
+        padding-top: 25em;
+    }
+}
+
+
+
+
 
